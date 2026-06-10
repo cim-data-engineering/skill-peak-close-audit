@@ -2,7 +2,7 @@
 
 Sensor-verified QA of PEAK tickets in Claude Chat. Give it a list of ticket IDs (action, alert, or mixed) and it decides which **actions can be confidently closed**.
 
-It returns a markdown table — one row per ticket with a verdict (✅ CLOSE / 🚨 KEEP / ⚠️ INVESTIGATE / ⏳ HOLD) and an evidence one-liner — then offers to batch-close the ✅ ones on your confirmation.
+It returns a markdown table — one row per action (alert IDs are resolved to their parent action) with a verdict (✅ CLOSE / 🚨 KEEP / ⚠️ INVESTIGATE / ⏳ HOLD / ⚪ OUT OF SCOPE) and an evidence one-liner — then offers to batch-close the ✅ ones on your confirmation.
 
 ## Pre-requisites
 
