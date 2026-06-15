@@ -1,6 +1,6 @@
 ---
 name: peak-close-audit
-description: Sensor-verified QA of user-supplied PEAK ticket IDs (action tickets, alert tickets, or a mix) to decide which action tickets can be confidently closed. Only invoke when the user explicitly runs the /peak-qa-actions slash command — never auto-trigger on related keywords or close-out questions. Once invoked, stay active for the rest of the session for follow-up drilldowns and batch closures.
+description: Sensor-verified QA of user-supplied PEAK ticket IDs (action tickets, alert tickets, or a mix) to decide which action tickets can be confidently closed. Only invoke when the user explicitly runs the /peak-close-audit slash command — never auto-trigger on related keywords or close-out questions. Once invoked, stay active for the rest of the session for follow-up drilldowns and batch closures.
 ---
 
 # PEAK Close Audit

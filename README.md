@@ -21,7 +21,7 @@ In Claude, go to **Settings > Connectors > Add custom connector**, paste the URL
 
 ## Usage
 
-Run `/peak-qa-actions` and supply a list of ticket IDs:
+Run `/peak-close-audit` and supply a list of ticket IDs:
 
-- `/peak-qa-actions audit these: 48213, 48590, 49001`
-- `/peak-qa-actions` then paste a list of IDs when prompted
+- `/peak-close-audit audit these: 48213, 48590, 49001`
+- `/peak-close-audit` then paste a list of IDs when prompted
